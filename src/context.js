@@ -26,6 +26,7 @@ const AppProvider = ({ children }) => {
     category: 'sports',
     difficulty: 'easy',
   })
+  
   const [isModalOpen, setIsModalOpen] = useState(false)
 
   const fetchQuestions = async (url) => {
